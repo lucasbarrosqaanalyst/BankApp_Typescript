@@ -1,0 +1,25 @@
+{
+  "name": "bankapp_typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasbarrosqaanalyst/BankApp_Typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/lucasbarrosqaanalyst/BankApp_Typescript/issues"
+  },
+  "homepage": "https://github.com/lucasbarrosqaanalyst/BankApp_Typescript#readme",
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^7.0.2"
+  }
+}
