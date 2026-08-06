@@ -1,29 +1,11 @@
-interface Pessoa {
-    nome: string,
-    idade: number,
-    profissao?: string
-}
+import { CompanyAccount } from "./class/CompanyAccount";
+import { PeopleAccount } from "./class/PeopleAccount";
 
-const pessoa: Pessoa = {
-    nome: 'Lucas',
-    idade: 26
-}
 
-const outraPessoa: Pessoa = {
-    nome: 'Roger',
-    idade: 33,
-    profissao: 'Esteticista'
-}
+const peopleAccount: PeopleAccount = new PeopleAccount(21121121223,'Maria', 3105);
+peopleAccount.deposit();
 
-const arrayPessoa: Array<Pessoa> = [
-    pessoa,
-    outraPessoa
-]
+const companyAccount: CompanyAccount = new CompanyAccount('DIO', 3101);
+companyAccount.deposit();
+console.log(companyAccount);
 
-const arrayNum: number[] = [
-    1,2,3
-]
-
-const arrayString: Array<string> = [
-    'abacaxi', 'manga', 'maçã'
-]
