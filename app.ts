@@ -4,7 +4,6 @@ import { PeopleAccount } from "./class/PeopleAccount";
 
 
 const peopleAccount: PeopleAccount = new PeopleAccount(21121121223,'Maria', 3105);
-peopleAccount.setName('Samira Safira');
 console.log(peopleAccount.getName());
 //Increments account balance value
 peopleAccount.deposit(3500);
@@ -15,7 +14,7 @@ peopleAccount.withdraw(1500);
 
 
 const companyAccount: CompanyAccount = new CompanyAccount('DIO', 3101);
-companyAccount.deposit();
+companyAccount.deposit(90000);
 console.log(companyAccount);
 
 

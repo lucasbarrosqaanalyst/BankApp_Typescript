@@ -9,11 +9,6 @@ export abstract class Account {
         this.accountNumber = accountNumber;
     }
 
-    setName = (name: string): void => {
-        this.name = name;
-        console.log('Nome alterado com sucesso!');
-    }
-
     getName = (): string => {
         return this.name;
     }
