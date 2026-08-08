@@ -6,12 +6,13 @@ export class CompanyAccount extends Account {
         super(name, accountNumber);
     }
 
-    getLoan = (): void => {
-        console.log('Você fez um empréstimo!');
+    getLoan = (value: number): void => {
+        console.log(`Empréstimo realizado no valor de ${value}`);
     }
 
     deposit = (): number => {
         return 2;
     }
+
 }
 
